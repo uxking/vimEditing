@@ -1,11 +1,11 @@
 # vim Starter Cheatsheet
 **Never use the arrow keys!**
 #### vim has three modes:
-"insert mode" vs "normal mode" vs "visual mode"
+"insert mode" vs "normal mode" vs "visual mode"  
 
 **Cursor Movement**
-Get around your file via the `jkhl` keys
-`j` - move down a line
+Get around your file via the `jkhl` keys  
+`j` - move down a line  
 `k` - move up aline
 `h` - move left a character
 `l` - move right a character
