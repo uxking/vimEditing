@@ -103,10 +103,11 @@ Marks allow you to "reference" a line/char in your file. Marks are accessed via 
 
 ## Using Macros  
 Macros are recordings of key commands that can be replayed  
-`q<char>` - starts recording a macro and saves in `<char>` register
+`q<char>` - starts recording a macro and saves in `<char>` register  
 >	After the above, start typing the commands you want to save, and when finished type `<esc>q`  
 >	Example: `qb$x<esc>q` - record a macro at register "b" which moves to the end of the line and deletes the last character
-`@<char>` - executes the macro saved at register `<char>`
+
+`@<char>` - executes the macro saved at register `<char>`  
 >	Example: `@b` - executes macro at register "b"
 
 `@@` - executes the macro again  
