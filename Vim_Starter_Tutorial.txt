@@ -7,7 +7,7 @@ wWbBeE - move to the next: w|W word, b|B backword, e|E end of word
 0 - places you at the begining of a line
 ^ - places you at the begining of the first non whitespace character
 $ - places you at the end of the line
-1G - is top, the first line of the file
+1G OR gg - move to top, the first line of the file
 12G - is the 12th line of the file
 G - last line of the file
 
@@ -70,7 +70,7 @@ Read output from a file or a command into your file
 
 Visual Mode
 In command mode type v
-This allows you to highlight and issue commands against the highlighted text- like d, c, y, s, x
+This allows you to highlight text and issue commands against the highlighted text- like d, c, y, s, x
 
 Cool things you can do in command mode
 :set number - adds numbers to your vim
