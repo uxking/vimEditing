@@ -6,10 +6,10 @@
 **Cursor Movement**  
 Get around your file via the `jkhl` keys  
 `j` - move down a line  
-`k` - move up aline  
+`k` - move up a line  
 `h` - move left a character  
 `l` - move right a character  
-`wWbBeE` - move to the next: w|W word, b|B backword, e|E end of word  
+`wWbBeE` - move to the next word, backwards, or end of word  
 `0` - places you at the begining of a line  
 `^` - places you at the begining of the first non-whitespace character  
 `$` - places you at the end of the line  
@@ -100,6 +100,17 @@ Marks allow you to "reference" a line/char in your file. Marks are accessed via 
 >	`3Y'ap` - yanks three lines and pastes them at mark "a"
 
 `:marks` - list all current marks  
+
+## Using Macros  
+Macros are recordings of key commands that can be replayed  
+`q<char>` - starts recording a macro and saves in `<char>` register
+>	Example: `qb$x` - record a macro at register "b" which moves to the end of the line and deletes the last character
+`@<char>` - executes the macro saved at register `<char>`  
+>	Example: `@b` - executes macro at register "b"
+
+`@@` - executes the macro again  
+`<num>@<char>` - execute the macro `<num>` times  
+`:reg` - see what macros are stored  
 
 ## Visual Mode  
 In _Normal_ mode type `v`  
