@@ -116,8 +116,8 @@ Macros are recordings of key commands that can be replayed
 
 ## Using Tabs  
 `tab new` - create a new tab  
-`tabn` - to to next tab
-`tabp` - previous tab
+`tabn` - to to next tab  
+`tabp` - previous tab  
 `tabs` - list all tabs and their windows  
 `tabm 0` - move current tab to first  
 `tabm <number>` - move tab to position  
