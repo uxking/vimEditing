@@ -114,11 +114,19 @@ Macros are recordings of key commands that can be replayed
 `<num>@<char>` - execute the macro `<num>` times  
 `:reg` - see what macros are stored  
 
+## Using Tabs  
+`tab new` - create a new tab  
+`tabn` - to to next tab
+`tabp` - previous tab
+`tabs` - list all tabs and their windows  
+`tabm 0` - move current tab to first  
+`tabm <number>` - move tab to position  
+
 ## Visual Mode  
 In _Normal_ mode type `v`  
 This allows you to highlight text and issue commands against the highlighted text- like `d`, `c`, `y`, `s`, `x`  
 
-***Cool things you can do in _Normal_ mode***  
+## Cool things you can do in _Normal_ mode  
 `:set number` - adds line numbers to your vim  
 `:set relativenumber` - adds relative line numbers to vim  
 `:set hlsearch` - highlights searches  
