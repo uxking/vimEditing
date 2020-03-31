@@ -121,6 +121,7 @@ Macros are recordings of key commands that can be replayed
 `tabs` - list all tabs and their windows  
 `tabm 0` - move current tab to first  
 `tabm <number>` - move tab to position  
+`vim -p <filename1> <filename2>` - open vim with filename1 in one tab, filename2 in a second tab, etc... 
 
 ## Visual Mode  
 In _Normal_ mode type `v`  
