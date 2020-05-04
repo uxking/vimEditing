@@ -135,4 +135,6 @@ This allows you to highlight text and issue commands against the highlighted tex
 `:noh` - clears the highlight until next search  
 `:syntax on` - syntax highlighting for certain files  
 `:!` run a shell command - does not put the ouput in the vim session  
+`:r!` - execute shell command and include output in your file. 
+ > Example: `:r! date` - inserts the date into your file. 
 `:f` - gives you information about the current file you are editing  
