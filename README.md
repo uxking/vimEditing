@@ -1,6 +1,4 @@
-# vim Tutorial
-
-## vim Starter Cheatsheet
+# vim Starter Cheatsheet
 **Never use the arrow keys!**
 #### vim has three modes:
 "insert mode" vs "normal mode" vs "visual mode"  
